@@ -26,7 +26,7 @@ const Home = () => (
     </p>
     <p>
       <TypedText text="Or don't. " delay={9000} />
-      <TypedText text="I'm a website, not a cop." delay={11000} />
+      <TypedText text="I'm a website, not a cop." delay={9900} />
     </p>
   </Container>
 );

@@ -4,7 +4,7 @@ import { Nav, Title, Links, StyledLink } from './TopNav.styles';
 
 const TopNav = () => (
   <Nav>
-    <Title to="/">Ryan Mackey</Title>
+    <Title to="/">Ryan O. Mackey</Title>
     <Links>
       <StyledLink activeClassName="active" to="/" exact>
         Home

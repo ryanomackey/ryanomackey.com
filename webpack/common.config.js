@@ -18,6 +18,15 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
+      {
+        test: /\.(jpe?g|png|gif)$/,
+        loader: 'file-loader',
+      },
+      {
+        test: /\.(jpg|png|gif|svg)$/,
+        loader: 'image-webpack-loader',
+        enforce: 'pre',
+      },
     ],
   },
   plugins: [

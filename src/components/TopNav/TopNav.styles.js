@@ -4,8 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 export const Nav = styled.nav`
   align-items: center;
   background-color: white;
-  border-bottom: 1px solid black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
@@ -24,6 +23,10 @@ export const Title = styled(Link)`
   margin: 0;
   color: black;
   text-decoration: none;
+
+  @media screen and (max-width: 375px) {
+    font-size: 2em;
+  }
 `;
 
 export const Links = styled.ul`
