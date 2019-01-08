@@ -1,5 +1,6 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin'); // eslint-disable-line import/no-extraneous-dependencies
+const CopyWebpackPlugin = require('copy-webpack-plugin'); // eslint-disable-line import/no-extraneous-dependencies
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // eslint-disable-line import/no-extraneous-dependencies
 
 module.exports = {
@@ -30,7 +31,8 @@ module.exports = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(['../dist']),
+    new CleanWebpackPlugin(['dist'], { root: path.resolve(__dirname, '..') }),
+    new CopyWebpackPlugin([{ from: 'favicons' }]),
     new HtmlWebpackPlugin({
       title: 'Ryan O. Mackey',
       template: path.resolve(__dirname, '../src/templates/index.html'),
