@@ -32,7 +32,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(['dist'], { root: path.resolve(__dirname, '..') }),
-    new CopyWebpackPlugin([{ from: 'favicons' }]),
+    new CopyWebpackPlugin([{ from: 'favicons' }, { from: '_redirects' }]),
     new HtmlWebpackPlugin({
       title: 'Ryan O. Mackey',
       template: path.resolve(__dirname, '../src/templates/index.html'),
