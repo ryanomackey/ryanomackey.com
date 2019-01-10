@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   flex-direction: row;
   flex-flow: wrap;
   justify-content: space-between;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
 
   @media (max-width: 571px) {
     justify-content: center;

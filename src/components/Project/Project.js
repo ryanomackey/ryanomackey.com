@@ -17,7 +17,7 @@ const Project = ({ title, screenshot, description, tech, links }) => {
     <Container>
       <h3>{title}</h3>
       <Grid>
-        <Image src={image} />
+        <Image image={image} />
         <Content>
           <Description>{description}</Description>
           <p>{tech}</p>

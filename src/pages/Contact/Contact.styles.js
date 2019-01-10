@@ -4,42 +4,6 @@ export const Container = styled.div`
   margin: 0 auto;
   width: 80%;
 
-  a {
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.6);
-    display: block;
-    font-family: 'Raleway', sans-serif;
-    margin: 9% auto;
-    opacity: 0;
-    padding: 8px;
-    text-decoration: none;
-    width: 30%;
-
-    i {
-      color: black;
-      padding-left: 5%;
-    }
-
-    span {
-      color: black;
-      display: inline;
-      font-family: 'Raleway', sans-serif;
-      font-size: 2em;
-      padding-left: 5%;
-    }
-
-    &:hover {
-      background-color: black;
-
-      i {
-        color: white;
-      }
-
-      span {
-        color: white;
-      }
-    }
-  }
-
   #email {
     animation: fadeIn 0.1s linear 0.5s forwards;
   }
@@ -52,6 +16,10 @@ export const Container = styled.div`
     animation: fadeIn 0.1s linear 0.7s forwards;
   }
 
+  #twitter {
+    animation: fadeIn 0.1s linear 0.8s forwards;
+  }
+
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -62,16 +30,48 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    .contact-links {
-      width: 90%;
+    width: 90%;
+  }
+`;
 
-      a {
-        width: auto;
-      }
+export const Link = styled.a`
+  align-items: center;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.6);
+  display: flex;
+  margin: 9% auto;
+  opacity: 0;
+  padding: 8px;
+  text-decoration: none;
+  width: 30%;
+
+  @media (max-width: 768px) {
+    width: auto;
+  }
+
+  &:hover {
+    background-color: black;
+
+    span,
+    i {
+      color: white;
     }
   }
 `;
 
+export const Icon = styled.i`
+  color: black;
+  padding-left: 5%;
+`;
+
+export const Text = styled.span`
+  color: black;
+  display: inline;
+  font-size: 2em;
+  padding-left: 5%;
+`;
+
 export default {
   Container,
+  Link,
+  Icon,
 };
