@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -51,14 +52,17 @@ export const Link = styled.a`
   &:hover {
     background-color: black;
 
-    span,
-    i {
+    span {
       color: white;
+    }
+
+    path {
+      fill: white;
     }
   }
 `;
 
-export const Icon = styled.i`
+export const Icon = styled(FontAwesomeIcon)`
   color: black;
   padding-left: 5%;
 `;

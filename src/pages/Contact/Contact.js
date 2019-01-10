@@ -1,11 +1,17 @@
 import React from 'react';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faGithub,
+  faLinkedin,
+  faTwitterSquare,
+} from '@fortawesome/free-brands-svg-icons';
 
 import { Container, Link, Icon, Text } from './Contact.styles';
 
 const Contact = () => (
   <Container>
     <Link href="mailto:ryan.o.mackey@gmail.com" id="email">
-      <Icon className="fa fa-envelope fa-3x" aria-hidden="true" />
+      <Icon icon={faEnvelope} size="3x" />
       <Text>Email</Text>
     </Link>
     <Link
@@ -14,7 +20,7 @@ const Contact = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Icon className="fa fa-github fa-3x" aria-hidden="true" />
+      <Icon icon={faGithub} size="3x" />
       <Text>GitHub</Text>
     </Link>
     <Link
@@ -23,7 +29,7 @@ const Contact = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Icon className="fa fa-linkedin-square fa-3x" aria-hidden="true" />
+      <Icon icon={faLinkedin} size="3x" />
       <Text>LinkedIn</Text>
     </Link>
     <Link
@@ -32,7 +38,7 @@ const Contact = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Icon className="fa fa-twitter-square fa-3x" aria-hidden="true" />
+      <Icon icon={faTwitterSquare} size="3x" />
       <Text>Twitter</Text>
     </Link>
   </Container>
