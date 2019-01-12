@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import LazyLoader from '../LazyLoader';
+
 export const Container = styled.div`
   margin-bottom: 6rem;
 `;
@@ -13,12 +15,8 @@ export const Grid = styled.div`
   }
 `;
 
-export const Image = styled.img`
-  background-image: url(${({ image }) => image});
-  background-position: center;
-  background-size: cover;
+export const Image = styled(LazyLoader)`
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
-  min-height: 327px;
   width: 100%;
 `;
 
@@ -32,6 +30,7 @@ export const Content = styled.div`
 `;
 
 export const Description = styled.p`
+  line-height: 1.2;
   margin-top: 0;
 `;
 
