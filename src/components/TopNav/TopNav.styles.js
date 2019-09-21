@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0 1rem;
 
-  @media (max-width: 571px) {
+  @media (max-width: 622px) {
     justify-content: center;
   }
 `;
