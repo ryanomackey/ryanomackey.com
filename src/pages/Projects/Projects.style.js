@@ -15,8 +15,13 @@ export const Date = styled.p`
   margin-left: 0.5rem;
 `;
 
+export const Description = styled.p`
+  margin-bottom: 2rem;
+`;
+
 export default {
   Container,
   Title,
   Date,
+  Description,
 };

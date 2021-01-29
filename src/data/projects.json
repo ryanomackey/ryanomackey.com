@@ -1,86 +1,122 @@
-[
-  {
-    "title": "Games.lib",
-    "screenshot": "games-lib.png",
-    "description": "A video game collection app with Steam, Twitch, and Amazon integration.",
-    "tech": "REACT/REDUX | NODE/EXPRESS | POSTGRES",
-    "links": [
-      {
-        "description": "Deployed",
-        "url": "https://games-lib.net"
-      },
-      {
-        "description": "Screencast",
-        "url": "https://vimeo.com/187074719"
-      },
-      {
-        "description": "Front-End Repo",
-        "url": "https://github.com/ryanomackey/games-lib-client"
-      },
-      {
-        "description": "Back-End Repo",
-        "url": "https://github.com/ryanomackey/games-lib-server"
-      }
-    ]
-  },
-  {
-    "title": "The Pokédex",
-    "screenshot": "pokedex.png",
-    "description": "A tribute to the original Pokédex from Pokémon Red and Blue, featuring a nostalgic interface that allows users to view any one of the original 151 Pokémon via the PokéAPI.",
-    "tech": "HTML | CSS | JAVASCRIPT",
-    "links": [
-      {
-        "description": "Deployed",
-        "url": "https://pokedex-106e7.firebaseapp.com"
-      },
-      {
-        "description": "Screencast",
-        "url": "https://vimeo.com/168379846"
-      },
-      {
-        "description": "Repo",
-        "url": "https://github.com/ryanomackey/pokedex"
-      }
-    ]
-  },
-  {
-    "title": "KiT",
-    "screenshot": "kit.png",
-    "description": "A mobile app for iOS and Android that suggests contacts to connect with.",
-    "tech": "ANGULAR | IONIC | NODE/EXPRESS | POSTGRES",
-    "links": [
-      {
-        "description": "Screencast",
-        "url": "https://vimeo.com/180225194"
-      },
-      {
-        "description": "Front-End Repo",
-        "url": "https://github.com/cooper-db/kit-frontend"
-      },
-      {
-        "description": "Back-End Repo",
-        "url": "https://github.com/cooper-db/kit-backend"
-      }
-    ]
-  },
-  {
-    "title": "Habit@",
-    "screenshot": "habitat.png",
-    "description": "A household management application for assigning and tracking chores and tasks.",
-    "tech": "BOOTSTRAP | NODE/EXPRESS | POSTGRES",
-    "links": [
-      {
-        "description": "Deployed",
-        "url": "https://habit-at.herokuapp.com"
-      },
-      {
-        "description": "Screencast",
-        "url": "https://vimeo.com/174568655"
-      },
-      {
-        "description": "Repo",
-        "url": "https://github.com/oddball-designs/habit.at"
-      }
-    ]
-  }
-]
+{
+  "projects": [
+    {
+      "title": "The Coffin Fits",
+      "screenshot": "coffinfits.rip.png",
+      "description": "Every band needs a website. Mine is no different.",
+      "tech": "GATSBY | REACT | GRAPHQL | S3 OBJECT STORAGE",
+      "links": [
+        {
+          "description": "Deployed",
+          "url": "https://coffinfits.rip"
+        },
+        {
+          "description": "Repo",
+          "url": "https://github.com/ryanomackey/coffinfits.rip"
+        }
+      ]
+    },
+    {
+      "title": "This Website",
+      "screenshot": "ryanomackey.com.png",
+      "description": "Woah. Meta.",
+      "tech": "REACT | WEBPACK",
+      "links": [
+        {
+          "description": "Deployed",
+          "url": "https://ryanomackey.com"
+        },
+        {
+          "description": "Repo",
+          "url": "https://github.com/ryanomackey/ryanomackey.com"
+        }
+      ]
+    }
+  ],
+  "galvanize": [
+    {
+      "title": "Games.lib",
+      "screenshot": "games-lib.png",
+      "description": "A video game collection app with Steam, Twitch, and Amazon integration.",
+      "tech": "REACT/REDUX | NODE/EXPRESS | POSTGRES",
+      "links": [
+        {
+          "description": "Deployed",
+          "url": "https://games-lib.net"
+        },
+        {
+          "description": "Screencast",
+          "url": "https://vimeo.com/187074719"
+        },
+        {
+          "description": "Front-End Repo",
+          "url": "https://github.com/ryanomackey/games-lib-client"
+        },
+        {
+          "description": "Back-End Repo",
+          "url": "https://github.com/ryanomackey/games-lib-server"
+        }
+      ]
+    },
+    {
+      "title": "The Pokédex",
+      "screenshot": "pokedex.png",
+      "description": "A tribute to the original Pokédex from Pokémon Red and Blue, featuring a nostalgic interface that allows users to view any one of the original 151 Pokémon via the PokéAPI.",
+      "tech": "HTML | CSS | JAVASCRIPT",
+      "links": [
+        {
+          "description": "Deployed",
+          "url": "https://pokedex-106e7.firebaseapp.com"
+        },
+        {
+          "description": "Screencast",
+          "url": "https://vimeo.com/168379846"
+        },
+        {
+          "description": "Repo",
+          "url": "https://github.com/ryanomackey/pokedex"
+        }
+      ]
+    },
+    {
+      "title": "KiT",
+      "screenshot": "kit.png",
+      "description": "A mobile app for iOS and Android that suggests contacts to connect with.",
+      "tech": "ANGULAR | IONIC | NODE/EXPRESS | POSTGRES",
+      "links": [
+        {
+          "description": "Screencast",
+          "url": "https://vimeo.com/180225194"
+        },
+        {
+          "description": "Front-End Repo",
+          "url": "https://github.com/cooper-db/kit-frontend"
+        },
+        {
+          "description": "Back-End Repo",
+          "url": "https://github.com/cooper-db/kit-backend"
+        }
+      ]
+    },
+    {
+      "title": "Habit@",
+      "screenshot": "habitat.png",
+      "description": "A household management application for assigning and tracking chores and tasks.",
+      "tech": "BOOTSTRAP | NODE/EXPRESS | POSTGRES",
+      "links": [
+        {
+          "description": "Deployed",
+          "url": "https://habit-at.herokuapp.com"
+        },
+        {
+          "description": "Screencast",
+          "url": "https://vimeo.com/174568655"
+        },
+        {
+          "description": "Repo",
+          "url": "https://github.com/oddball-designs/habit.at"
+        }
+      ]
+    }
+  ]
+}
