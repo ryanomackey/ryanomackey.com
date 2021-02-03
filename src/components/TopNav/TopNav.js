@@ -6,15 +6,21 @@ const TopNav = () => (
   <Nav>
     <Title to="/">Ryan O. Mackey</Title>
     <Links>
-      <StyledLink activeClassName="active" to="/" exact>
-        Home
-      </StyledLink>
-      <StyledLink activeClassName="active" to="/projects">
-        Projects
-      </StyledLink>
-      <StyledLink activeClassName="active" to="/contact">
-        Contact
-      </StyledLink>
+      <li>
+        <StyledLink activeClassName="active" to="/" exact>
+          Home
+        </StyledLink>
+      </li>
+      <li>
+        <StyledLink activeClassName="active" to="/projects">
+          Projects
+        </StyledLink>
+      </li>
+      <li>
+        <StyledLink activeClassName="active" to="/contact">
+          Contact
+        </StyledLink>
+      </li>
     </Links>
   </Nav>
 );

@@ -1,33 +1,55 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import TypedText from '../../components/TypedText';
+import { Container, Image, Article } from './Home.styles';
 
-import { Container } from './Home.styles';
+import image from '../../images/hotel-vegas.png';
 
 const Home = () => (
   <Container>
-    <h3>
-      <TypedText text={`Hey, I'm Ryan's website.`} delay={0} />
-    </h3>
-    <p>
-      <TypedText text="Check out some of " delay={2500} />
-      <Link to="/projects">
-        <TypedText text="his work" delay={4100} />
-      </Link>
-      <TypedText text=" here." delay={4800} />
-    </p>
-    <p>
-      <TypedText text="Or, " delay={5500} />
-      <Link to="/contact">
-        <TypedText text="get in touch with him" delay={6300} />
-      </Link>
-      <TypedText text="." delay={8000} />
-    </p>
-    <p>
-      <TypedText text="Or don't. " delay={9000} />
-      <TypedText text="I'm a website, not a cop." delay={9900} />
-    </p>
+    <Image
+      src={image}
+      alt="Ryan on stage at Hotel Vegas with The Coffin Fits"
+    />
+    <Article>
+      <p>
+        Ryan is a professional software developer and a <i>very</i> amateur
+        musician living in Austin, Texas.
+      </p>
+
+      <p>
+        Born and raised in Fort Collins, Colorado, Ryan attended Colorado State
+        University, graduating with a B.A. in Political Science. A degree which,
+        so far, has only allowed him to be slightly more philosophical when
+        panicking about the news everyday.
+      </p>
+
+      <p>
+        After college, Ryan briefly worked with his father in the financial
+        services industry before realizing he wasn&apos;t a particularly good
+        salesman and transitioning to a career in web development.
+      </p>
+
+      <p>
+        Ryan attended a 6-month, web development immersive through Galvanize
+        before landing a position at IBM and moving to Austin to work as a
+        front-end developer on IBM Cloud.
+      </p>
+
+      <p>
+        While in Austin, Ryan started playing guitar in a band called{' '}
+        <a href="https://coffinfits.rip">The Coffin Fits</a>, and started
+        playing shows with them around the area. Not so much during the
+        pandemic. Partially due to the closure of many live music venues, but
+        also because the band name is now in somewhat poor taste.
+      </p>
+
+      <p>
+        A survivor of a rare childhood cancer, Ryan has lived life without the
+        use of his left eye and wears a prosthetic. This largely hasn&apos;t
+        been a huge deal with the exception of needing to turn his head slightly
+        further to the left when changing lanes in traffic.
+      </p>
+    </Article>
   </Container>
 );
 
